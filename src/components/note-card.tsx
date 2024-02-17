@@ -4,8 +4,7 @@ import { ptBR } from "date-fns/locale";
 import { X } from "lucide-react";
 import * as AlertDialog from "@radix-ui/react-alert-dialog";
 import { Note } from "../models/note";
-import { ChangeEvent, ReactNode, useContext, useState } from "react";
-import { NoteContext } from "../hooks/useNotes";
+import { ChangeEvent, useState } from "react";
 
 interface NoteCardProps {
   note: Note;
@@ -17,7 +16,6 @@ export function NoteCard({ note, onNoteDeleted, onNoteEdited }: NoteCardProps) {
   const [shouldEditNote, setShouldEditNote] = useState(false);
   const [content, setContent] = useState("");
   const [titleNote, setTitle] = useState("");
-  const context = useContext(NoteContext);
 
   function handleContentChanged(event: ChangeEvent<HTMLTextAreaElement>) {
     setContent(event.target.value);
