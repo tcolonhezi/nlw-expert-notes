@@ -16,9 +16,9 @@
 <!-- Infos do projeto -->
 <h3> 💻 Projeto </h3>
 <p align="left">
-  Uma aplicação para criar e guardar notas de forma rápida e prática, sendo possível escrever de forma manual <br/>
-  e também em audio, onde é convertido de forma instantânea em texto. A função de audio foi pensada para momentos <br/> 
-  onde está em movimento e não podemos perder uma ideia.
+  Uma aplicação para criar e guardar notas de forma rápida e prática, sendo possível escrever de forma manual 
+  e também em áudio o qual é convertido de forma instantânea em texto. A função de áudio foi pensada para momentos 
+  nos quais estamos em movimento e não podemos perder uma ideia.
 </p>
 
 <!-- Ícones das ferramentas -->
