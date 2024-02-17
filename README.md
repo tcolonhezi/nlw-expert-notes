@@ -43,16 +43,12 @@
 <!-- -->
 <h3> ⚡ Executando </h3>
 
-&emsp; &emsp; Após clonar o repositório, acesse a pasta do projeto e execute os comandos abaixo:
+Clone o repositorio e utilize o npm para instalar e executar. 
 
 ```bash
   npm install
-
   npm run dev
 ```
-
-&emsp; &emsp; Acesse http://localhost:5173 para visualizar a aplicação.
-
 <br>
 
 <h2> 🔮 Implementações futuras: </h2>
@@ -63,7 +59,7 @@
 
 <br>
 
-<h3> 👩🏼‍💻 Contatos </h3>
+<h3> 👩🏼‍💻 Contato </h3>
 
 <p>
   <strong>&emsp; &emsp; Thiago Colonhezi</strong> &emsp;
